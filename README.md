@@ -48,7 +48,7 @@ After uploading the sketch to your Arduino, the program will automatically start
 
 - **Calibration Offset**: Modify the `calibrationOffset` variable in the code to adjust the calibration as necessary for your setup.
 - **Number of Readings**: The `numReadings` variable determines how many readings are averaged for the RMS calculation. Adjust this number based on your desired balance between accuracy and response time.
-- **analog value calibration** if code gives out incorrect value even when calibration offset is tuned in, you can tweak idle analog value and analog increment. Idle analog value is what sensor is outputtin at no load, increment is how many analog values for one ampere of current.
+- **analog value calibration**: if code gives out incorrect value even when calibration offset is tuned in, you can tweak **idle analog value** and **analog increment**. Idle analog value is what sensor is outputtin at no load, increment is how many analog values for one ampere of current.
 
 ## Contributing
 
