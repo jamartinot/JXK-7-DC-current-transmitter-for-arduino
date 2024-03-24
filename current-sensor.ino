@@ -27,7 +27,7 @@ void loop() {
   // Convert the trueRMS analog value to current
   float current = 0.0;
   if (trueRMS > 200) {  //idle analog value, default 200 adjust if needed!
-      current = (trueRMS - 200) / 60.0; //analog value-idle analog value times analog increment per 1A. Adjust idle analog value(200) and analog increment(60) if needed. 
+      current = (trueRMS - 200) / 60.0; //(analog value-idle analog value) / analog increment per 1A. Adjust idle analog value(200) and analog increment(60) if needed. 
   }
 
   // Apply calibration offset
