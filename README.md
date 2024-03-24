@@ -30,7 +30,7 @@ This Arduino project provides a straightforward and effective way to measure the
 1. **Setup the Arduino Environment**: If you haven't already, download and install the Arduino IDE from [the official Arduino website](https://www.arduino.cc/en/software).
 
 2. **Connect Your Sensor**: Connect your analog current sensor to pin A0 on your Arduino board. Note that the code currently specifies pin 13, which is typically a digital pin; you should adjust this in the code to match your setup.
-
+also verify that your **sensor gives correct output with multimeter before connecting**. It should give 0-5v analog signal, about 120mV idle
 ![Wiring diagram](PENUP_20240324_181322.jpg)
 3. **Upload the Sketch**: Open the Arduino IDE, paste the provided code into a new sketch, and upload it to your Arduino board.
 
