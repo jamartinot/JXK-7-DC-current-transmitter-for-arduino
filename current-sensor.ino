@@ -1,6 +1,6 @@
 #include <Arduino.h>
 
-const int analogPin = 13; // Analog pin for sensor input
+const int analogPin = 13; // Analog pin for sensor input, UPDATE TO CORRECT ONE!
 const int numReadings = 1000; // Number of readings to average for RMS calculation
 const float calibrationOffset = -0.5; // Calibration offset value
 
@@ -26,8 +26,8 @@ void loop() {
   
   // Convert the trueRMS analog value to current
   float current = 0.0;
-  if (trueRMS > 200) {
-      current = (trueRMS - 200) / 60.0;
+  if (trueRMS > 200) {  //idle analog value, default 200 adjust if needed!
+      current = (trueRMS - 200) / 60.0; //analog value-idle analog value times analog increment per 1A. Adjust idle analog value(200) and analog increment(60) if needed. 
   }
 
   // Apply calibration offset
