@@ -33,9 +33,12 @@ This Arduino project provides a straightforward and effective way to measure the
 2. **Connect Your Sensor**: Connect your analog current sensor to pin A0 on your Arduino board. Note that the code currently specifies pin 13, which is typically a digital pin; you should adjust this in the code to match your setup.
 also verify that your **sensor gives correct output with multimeter before connecting**. It should give 0-5v analog signal, about 120mV idle
 ![Wiring diagram](PENUP_20240324_181322.jpg)
-3. **Upload the Sketch**: Open the Arduino IDE, paste the provided code into a new sketch, and upload it to your Arduino board.
 
-4. **Open the Serial Monitor**: With the Arduino connected to your computer, open the Serial Monitor in the Arduino IDE to view the outputted current measurements.
+3. **edit sketch** edit correct pin number used for analog input. 
+4. **Upload the Sketch**: Open the Arduino IDE, paste the provided code into a new sketch, and upload it to your Arduino board.
+  
+
+5. **Open the Serial Monitor**: With the Arduino connected to your computer, open the Serial Monitor in the Arduino IDE to view the outputted current measurements.
 
 ## Usage
 
@@ -45,6 +48,7 @@ After uploading the sketch to your Arduino, the program will automatically start
 
 - **Calibration Offset**: Modify the `calibrationOffset` variable in the code to adjust the calibration as necessary for your setup.
 - **Number of Readings**: The `numReadings` variable determines how many readings are averaged for the RMS calculation. Adjust this number based on your desired balance between accuracy and response time.
+- **analog value calibration** if code gives out incorrect value even when calibration offset is tuned in, you can tweak idle analog value and analog increment. Idle analog value is what sensor is outputtin at no load, increment is how many analog values for one ampere of current.
 
 ## Contributing
 
