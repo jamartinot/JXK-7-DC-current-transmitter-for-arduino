@@ -31,6 +31,7 @@ This Arduino project provides a straightforward and effective way to measure the
 
 2. **Connect Your Sensor**: Connect your analog current sensor to pin A0 on your Arduino board. Note that the code currently specifies pin 13, which is typically a digital pin; you should adjust this in the code to match your setup.
 
+![Wiring diagram](main/PENUP_20240324_181322.jpg)
 3. **Upload the Sketch**: Open the Arduino IDE, paste the provided code into a new sketch, and upload it to your Arduino board.
 
 4. **Open the Serial Monitor**: With the Arduino connected to your computer, open the Serial Monitor in the Arduino IDE to view the outputted current measurements.
