@@ -1,9 +1,11 @@
 # JXK-7-DC-current-transmitter-for-arduino
-Code measures the true Root Mean Square (RMS) value of an analog signal from a sensor connected to an Arduino, convert this RMS value into a current measurement. Code is mostly written by AI, even README is written by AI. If youre new to programming, I can recommend turnig to it for help.
-this project uses current measuring device from aliexpress:
+Code measures the true Root Mean Square (RMS) value of an analog signal from a sensor connected to an Arduino, convert this RMS value into a current measurement. Code is mostly written by AI, even README is written by AI. If youre new to programming, I suggest turnig to it for help. I used **esp 32** which has **D13** pin as analog input. Please note that same pin is **digital pin in arduino and doesnt work**. I recommend using **A0** in arduino.
+
+This project uses current measuring device from aliexpress:
 | AC DC Current Transmitter Sensor 1A 100A 200A 150A Ampere Transmitter 4-20mA 0-10V 20mm 25mm DC Current Transducer Transmitter
 https://a.aliexpress.com/_ExNHoUH
----
+![Image](SmartSelect_20240324_183512_AliExpress.png)
+
 
 # True RMS Current Measurement
 
