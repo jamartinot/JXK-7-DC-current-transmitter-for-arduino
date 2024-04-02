@@ -60,4 +60,3 @@ This project is open-source and available under the MIT License. See the LICENSE
 
 ---
 
-Remember to add or modify sections as necessary to accurately reflect your project's specifics, such as detailed wiring instructions, any dependencies, or additional notes on the intended use case.
